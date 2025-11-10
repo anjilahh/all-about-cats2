@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="All About Cats"/>
+    <title>All About Cats | Home</title>
+    <link rel="icon" href="images/cat_icon.png"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <header>
+        <h1>All About Cats</h1>
+        <input type="checkbox" id="hamburger_checkbox">
+        <label for="hamburger_checkbox" id="hamburger_menu" aria-label="Expand and collapse menu">
+            <img id="hamburger_menu_icon" src="images/hamburger_menu_icon.png" alt="Menu" width="24" height="18"/>
+        </label>
+        
+        <nav>
+            <a class="active_nav" href="index.html">Home</a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <a href="https://www.thesprucepets.com/maine-coon-cat-breed-profile-characteristics-and-care-5221962">Maine Coon</a>
+            <a href="https://www.thesprucepets.com/british-shorthair-5219450">British Shorthair</a>
+            <a href="https://www.thesprucepets.com/bengal-cats-1238154">Bengal</a>
+            <a href="https://www.thesprucepets.com/sphynx-cat-4176530">Sphynx</a>
+            <a href="https://www.thesprucepets.com/scottish-fold-profile-551898">Scottish Fold</a>
+            <a href="https://www.britannica.com/animal/cat">Britannica - History of Cats</a>
+        </aside>
+
+        <section>
+         <img id="main_image"
+            srcset="images/scottish_fold_480px.jpg 480w,
+            images/scottish_fold_1920px.jpg 960w,
+            images/scottish_fold_960px.jpg 1920w"
+            sizes="(max-width: 480px) 480px,
+            (max-width 960px) 960px,
+            (max-width 1920px) 1920px"
+            src="images/scottish_fold_1920px.jpg"
+            alt="Scottish Fold with glasses"
+            title="Scottish Fold" />
+
+          <article>
+              <p>Welcome to All About Cats! A website dedicated to providing information about our feline friends!</p>
+              <p>Take a look at our four favourite cat breeds.</p>
+          </article>
+        </section>
+    </main>
+   
+    <footer>
+        <p>&copy; 2025 All About Cats | All Rights Reserved | Angela |</p>
+    </footer>
+</body>
+</html>
