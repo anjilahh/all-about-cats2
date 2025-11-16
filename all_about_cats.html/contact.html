@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="All About Cats"/>
+    <title>All About Cats | Home</title>
+    <link rel="icon" href="images/cat_icon.png"/>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header>
+        <h1>All About Cats</h1>
+        <input type="checkbox" id="hamburger_checkbox">
+        <label for="hamburger_checkbox" id="hamburger_menu" aria-label="Expand and collapse menu">
+            <img id="hamburger_menu_icon" src="images/hamburger_menu_icon.png" alt="Menu" width="24" height="18"/>
+        </label>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a class="active_nav" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+ <form id="contact_form" method="post">
+    <label for="fname">First name:</label><br />
+    <input type="text" id="fname" name="fname" autocomplete="given-name"><br />
+
+    <label for="lname">Last name:</label><br />
+    <input type="text" id="lname" name="lname" autocomplete="family-name"><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" autocomplete="email"><br />
+
+    <label for="mobile">Mobile:</label><br />
+    <input type="text" id="mobile" name="mobile" autocomplete="tel"><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message"></textarea><br />
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+ </form>
+
+    <footer>
+        <p>&copy; 2025 All About Cats | All Rights Reserved | Angela |</p>
+    </footer>
+</body>
+</html>
